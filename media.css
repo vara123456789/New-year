@@ -1,0 +1,24 @@
+"@media all and (max-width: 450px){
+	main {
+		display: inherit;
+		margin: auto;
+		width: 100%;
+	}
+	.main-block {
+		width: 100%;
+		display: flex;
+	}
+	.child{
+		width: 100%;
+		margin: 90;
+	}
+	.nav-link {
+		width: auto;
+	}
+	.img-imj{
+		max-width: 100%
+	}
+	.inputing, .borderr{
+		width: 100%
+	}
+}

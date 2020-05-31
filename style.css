@@ -1,0 +1,182 @@
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ .logo img{
+ 	height:100px;
+ 	width:100px;
+ 	display: inline-block;
+ 	border-right: 1px solid white;
+ }
+.logo,.search-wrapper,.nav-link1{
+	display: inline-block;
+}
+ header{
+	
+ 	background-color: black;
+
+ }
+ main{  
+ 	max-width:1200px;
+ 	margin: auto;
+ 	display: flex;
+ 	justify-content: space-between;
+
+ }
+
+.topnav{  
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: auto;
+  }
+
+ .child {
+   color: white;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-decoration: none;
+   text-transform: uppercase;
+   background-color: rgba(255, 50, 50, 0.5);
+   padding: 16px;
+   display: flex;
+   width: 80%;
+   text-shadow: red 2px 2px 2px;
+   font-size: 24px;
+}
+
+.child-hover {
+	font-size: 8px;
+	display: none;
+}
+
+.main-block:hover .child-hover {
+	color: grey;
+	font-size: 14px;
+	text-decoration: none;
+	transition: 3s;
+	display: flex;
+}
+
+main:hover > .main-block {
+	opacity: 0.5;
+	filter: blur(5px);
+	transition: 0.5s;
+}
+
+a {
+	text-decoration: none;
+}
+
+main:hover > .main-block:hover {
+	opacity: 1;
+	filter: unset;
+	transition: 0.5s;
+}
+ 
+ .search-wrapper {
+ 	width:80%;
+ 	margin-top:20px;
+ 	margin-left: 20px;
+
+ 	
+ }
+ .search{
+ 	background-color: #303030;
+ 	outline: none;
+ 	border: none;
+ 	margin-left:2px;
+ 	color: #FFFFE0;
+ 	font-size: 15px;
+ 	padding: 3px;
+ }
+ .nav-link{
+ 	float: left;
+ 	display: inline-block;
+ 	width:40px;
+ 	height: 40px;
+ }
+ .nav-link img{
+ 	width:30px;
+ 	height: 30px;
+ }
+
+ .nav-link1{
+ 	width: 100px;
+ 	margin-top: 20px;
+ }
+
+ .search-form{
+ 	width:27%;
+ 	background-color: #000000;
+ 	margin-bottom: 11px;
+ 	display: flex;/*20190207: выравнивает форму*/
+ }
+.search-submit{
+	background-image: url('img/search.png');
+	width:24px;
+	height:24px;
+	/*20190207: украшаем кнопку :)*/
+	background-size: contain;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	/*коннец украшений кнопки*/
+}
+
+.form{
+	background-image: url('img/поздравление.png');
+}
+
+.books{
+	background-image: url('img/книги.png');
+}
+
+.films {
+	background-image: url('img/фильмы.png');
+
+}
+
+.main-block {
+	display: inline-flex;
+	padding: 10px;
+	width:33%;
+	height:457px;
+	margin-top: 10px;
+	align-items: flex-end;
+}
+
+/*20190207: подвал*/
+footer {
+	background-color: black;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.footer {
+	max-width: 1200px;
+	margin: auto;
+	color: white;
+	padding: 20px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-col {
+	display: inline-flex;
+	align-items: center;
+}
+
+.footer-col a {
+	color: grey;
+	display: inline-flex;
+	align-items: center;
+}
+
+.footer-col a img {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+}
